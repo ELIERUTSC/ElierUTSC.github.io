@@ -13,7 +13,7 @@ Comienza el documento HTML.
 
 lang="es" especifica que el idioma principal es español.
 
-🧠 <head>: Metadatos y configuración
+ <head>: Metadatos y configuración
 html
 <meta charset="UTF-8">
 Define la codificación de caracteres como UTF-8 (soporta acentos, símbolos, etc.).
@@ -30,7 +30,7 @@ html
 <script src="https://cdn.tailwindcss.com"></script>
 Carga Tailwind CSS desde un CDN para usar clases utilitarias de diseño.
 
-🎨 <body>: Contenido visible
+ <body>: Contenido visible
 html
 <body class="bg-gray-100 font-sans leading-relaxed">
 bg-gray-100: fondo gris claro.
@@ -39,7 +39,7 @@ font-sans: fuente sin serifas.
 
 leading-relaxed: espaciado entre líneas relajado.
 
-📦 Contenedor principal
+ Contenedor principal
 html
 <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-2xl p-8 mt-10">
 max-w-3xl: ancho máximo moderado.
@@ -56,7 +56,7 @@ p-8: padding interno.
 
 mt-10: margen superior.
 
-🧍 Encabezado
+ Encabezado
 html
 <div class="text-center">
 Centra el contenido horizontalmente.
@@ -75,7 +75,7 @@ html
 <p class="text-gray-600">
 Texto en gris medio.
 
-🔗 Sección de contacto
+ Sección de contacto
 html
 <div class="flex justify-center gap-6 mt-6">
 flex: usa Flexbox.
@@ -94,7 +94,7 @@ hover:scale-110: se agranda al pasar el cursor.
 
 transition-transform: suaviza la animación.
 
-📄 Secciones de contenido
+ Secciones de contenido
 Cada sección (<section>) sigue un patrón:
 
 html
@@ -119,7 +119,7 @@ text-gray-700: texto gris oscuro.
 
 text-justify: texto justificado.
 
-✅ Lista de habilidades
+ Lista de habilidades
 html
 <div class="grid grid-cols-2 gap-4 mt-2 text-gray-700">
 grid grid-cols-2: dos columnas.
